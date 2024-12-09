@@ -1,0 +1,149 @@
+/* General Layout */
+.btn-home {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.btn-home:hover {
+    background-color: #0056b3;
+}
+
+.blog-body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    color: #333;
+}
+
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Titles */
+.blog-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.blog-post-title {
+    font-size: 1.5em;
+    color: #007BFF;
+}
+
+.blog-post-title:hover {
+    text-decoration: underline;
+}
+
+/* Blog List */
+.blog-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blog-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.blog-item:last-child {
+    border-bottom: none;
+}
+
+.blog-item-date {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.blog-item-content {
+    margin-top: 10px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Buttons and Links */
+.blog-create-button,
+.blog-edit-button,
+.blog-back-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #28a745;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.blog-create-button:hover,
+.blog-edit-button:hover,
+.blog-back-button:hover {
+    background-color: #218838;
+}
+
+.blog-cancel-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.blog-cancel-button:hover {
+    background-color: #c82333;
+}
+
+/* Form Styles */
+.blog-form {
+    margin-top: 20px;
+}
+
+.blog-form-fields {
+    margin-bottom: 20px;
+}
+
+.blog-form input[type="text"],
+.blog-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.blog-form textarea {
+    height: 150px;
+}
+
+.blog-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.blog-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.blog-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 0.9em;
+}

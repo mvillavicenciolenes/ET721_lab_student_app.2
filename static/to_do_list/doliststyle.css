@@ -1,0 +1,123 @@
+/* General Layout */
+.btn-home {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-size: 1em;
+    text-align: center;
+}
+
+.btn-home:hover {
+    background-color: #0056b3;
+}
+
+.maincontainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.apptitle {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Form Styles */
+.dolistform {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.formgroup label {
+    font-weight: bold;
+}
+
+.todo_text {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btnadd {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnadd:hover {
+    background-color: #218838;
+}
+
+/* Action Buttons */
+.btn_deleteeach, .btn_deleteall {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn_deleteeach:hover, .btn_deleteall:hover {
+    background-color: #c82333;
+}
+
+/* Task List */
+.listdo {
+    list-style-type: none;
+    padding: 0;
+}
+
+.listitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.listitem.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.btn_complete {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_complete:hover {
+    background-color: #0056b3;
+}
+
+.btn_delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_delete:hover {
+    background-color: #c82333;
+}

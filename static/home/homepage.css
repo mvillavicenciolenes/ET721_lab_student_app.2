@@ -1,0 +1,49 @@
+/* General Layout */
+.homepage-body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.homepage-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Title and Intro */
+.homepage-title {
+    font-size: 2.5em;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.homepage-intro {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Links */
+.homepage-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.homepage-link {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.homepage-link:hover {
+    background-color: #0056b3;
+}

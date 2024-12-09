@@ -1,0 +1,75 @@
+/* General Body Styling */
+.notes-body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Container */
+.notes-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Titles */
+.notes-title {
+    font-size: 2em;
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Notes List */
+.notes-list {
+    list-style: none;
+    padding: 0;
+}
+
+.notes-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.notes-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Empty State */
+.notes-empty {
+    text-align: center;
+    font-size: 1.2em;
+    color: #777;
+}
+
+/* Buttons and Links */
+.btn-home, .notes-upload-link, .notes-back-link, .notes-upload-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.btn-home:hover, .notes-upload-link:hover, .notes-back-link:hover, .notes-upload-button:hover {
+    background-color: #0056b3;
+}
+
+.notes-form-fields {
+    margin-bottom: 20px;
+}
