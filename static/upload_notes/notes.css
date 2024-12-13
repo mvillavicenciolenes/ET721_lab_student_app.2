@@ -1,75 +1,63 @@
-/* General Body Styling */
-.notes-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 20px;
-    color: #333;
+/* upload_notes/notes.css */
+body.notes-body {
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+    color: #333; /* Dark text */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding */
 }
 
-/* Container */
 .notes-container {
-    max-width: 800px;
-    margin: 0 auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limit width */
+    margin: 0 auto; /* Center container */
+    background-color: #ffffff; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 30px; /* Padding around content */
 }
 
-/* Titles */
 .notes-title {
-    font-size: 2em;
-    color: #007BFF;
-    text-align: center;
-    margin-bottom: 20px;
+    font-size: 24px; /* Title size */
+    color: #007bff; /* Primary color */
+    margin-bottom: 20px; /* Space below title */
 }
 
-/* Notes List */
 .notes-list {
-    list-style: none;
-    padding: 0;
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
 }
 
 .notes-item {
-    margin-bottom: 20px;
-    text-align: center;
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 15px; /* Space between items */
+    padding: 15px; /* Padding for items */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Slightly darker background for items */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.notes-item:hover {
+    background-color: #e9ecef; /* Light gray on hover */
 }
 
 .notes-image {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    border: 2px solid #ddd;
-    border-radius: 5px;
+    max-width: 100%; /* Ensure images do not exceed their container's width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Add rounded corners */
 }
 
-/* Empty State */
-.notes-empty {
-    text-align: center;
-    font-size: 1.2em;
-    color: #777;
+.notes-upload-link {
+    display: inline-block; /* Block for padding */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    padding: 12px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline margin-top: 20px; /* Space above link */
+    transition: background-color 0.3s; /* Smooth transition */
 }
 
-/* Buttons and Links */
-.btn-home, .notes-upload-link, .notes-back-link, .notes-upload-button {
-    display: inline-block;
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    margin: 10px 0;
-    font-size: 1em;
-}
-
-.btn-home:hover, .notes-upload-link:hover, .notes-back-link:hover, .notes-upload-button:hover {
-    background-color: #0056b3;
-}
-
-.notes-form-fields {
-    margin-bottom: 20px;
+.notes-upload-link:hover {
+    background-color: #218838; /* Darker green on hover */
 }
